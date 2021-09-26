@@ -1,0 +1,83 @@
+:root, html, body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.landing-section {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.landing-text {
+	color:  white;
+	position: absolute;
+	bottom: 120px;
+	right: 60px;
+	z-index: 10;
+	font-size: 2em;
+}
+
+.cta-button {
+	background-color: orange;
+	padding: 20px 54px;
+	border-radius: 40px;
+	text-align: center;
+	color: #121212;
+	font-size: .8em;
+	float: right;
+}
+
+.other-section {
+	background-color: #121212;
+	display: flex;
+	justify-content: center;
+	padding: 160px 120px 180px 120px;
+}
+
+.landing-img {
+	position:  absolute;
+	width: 100%;
+	top: 0;
+	z-index: -100;
+}
+
+.dark-backdrop {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(0, 0, 0, .9);
+}
+
+table, tr, th, td {
+	border: 1px solid grey;
+	border-collapse: collapse;
+}
+
+table {
+	width: 60%;
+}
+
+th {
+	background-color: orange;
+	color: #121212;
+	border-color: #121212;
+	font-size: 2em;
+}
+
+td {
+	text-align: center;
+	font-size: 2em;
+	color: white;
+}
+
+ul {
+	margin: 14px 100px 0 20px;
+	color: white;
+}
+
+li {
+	margin: 14px;
+}
